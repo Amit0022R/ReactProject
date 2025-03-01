@@ -13,6 +13,7 @@ export default function QRGenerator()  {
 
   return (
     <div>
+      {/*  */}
       <h1>QR Code Generator</h1>
       <div>
         <input onChange={(e) => setInputValue(e.target.value)} type="text" name="qr-code" placeholder="Enter your name sir!"/>
@@ -25,7 +26,7 @@ export default function QRGenerator()  {
         id="qr-code-value"
         value={qrCodeValue}
         size={450}
-        bgColor={"#fff"}
+        bgColor={"white"}
         />
       </div>
     </div>
